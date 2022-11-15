@@ -1,0 +1,39 @@
+{
+    "schools": [
+        {
+            "schoolName": "Christ the King College, Onitsha",
+            "email": "ckconitsha@gmail.com",
+            "address": "Plot 32 Oguta Road, Onitsha",
+            "phone": ["08067882249", "08153997233"],
+            "year": "2021"
+        },
+        {
+            "schoolName": "Queens Girls College, Onitsha",
+            "email": "qrconitsha@gmail.com",
+            "address": "Plot 57 Awka Road, Onitsha",
+            "phone": ["08067668267", "08032765432"],
+            "year": "2010"
+        },
+        {
+            "schoolName": "Dennis Memorial Secondary School, Onitsha",
+            "email": "dmgsonitsha@gmail.com",
+            "address": "Plot 51 Awka Road, Onitsha",
+            "phone": ["080637829783", "08067662289"],
+            "year": "2017"
+        },
+        {
+            "schoolName": "Ado Girls Secondary School, Onitsha",
+            "email": "adogirlsonitsha@gmail.com",
+            "address": "Plot 10 School Road, Onitsha",
+            "phone": ["0803577782", "08035009615"],
+            "year": "2019"
+        },
+        {
+            "schoolName": "Saint Charles Science School, Onitsha",
+            "email": "saintcharles@gmail.com",
+            "address": "km 24 School Road, Onitsha",
+            "phone": ["08067882249", "08153997233"],
+            "year": "2020"
+        }
+    ]
+}

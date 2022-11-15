@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizProject</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body class="">
+    <nav>
+       <ul class="menu">
+        <div class="logo"><a href="home.html" active><img src="/img/logo.jpg" alt=""></a></div>
+    </nav>
+    <div class="result" id="result"></div>
+   <div class="mainContainer">
+    <div class="name" id="name"></div>
+    <div class="container">
+       <div id="question-container" class="question-container hide">
+        <div class="question" id="question">Question </div>
+        <div class="answer-container" id="answer-container">
+            <button id="answer-btn" class="answer-btn">Answer 1</button>
+            <button id="answer-btn" class="answer-btn">Answer 2</button>
+            <button id="answer-btn" class="answer-btn">Answer 3</button>
+            <button id="answer-btn" class="answer-btn">Answer 4</button>
+        </div>
+       </div>
+        <div class="btn-controller">
+           <button class="btn-start btn" id="btn-start">Start</button>
+            <button class="btn-next btn hide" id="btn-next">Next</button>
+        </div>
+    </div>
+   </div>
+    
+</body>
+<script src="quiz.js"></script>
+</html>

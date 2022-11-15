@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+.nav {
+    position: absolute;
+    z-index: 1;
+}
+.logo {
+    width: 5%;
+    margin: 20px 0 0 20px;
+}
+.logo a {
+    text-decoration: none;
+}
+.logo img {
+    width: 100%;
+}
+
+body {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 40%);
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.answer-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.answer-btn {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+}
+
+.answer-btn:hover {
+    border-color: #000;
+}
+
+.answer-btn.correct {
+    --hue: var(--hue-correct);
+    color: #000;
+}
+
+.answer-btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.btn-start, .btn-next {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+.result {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+strong {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+ 
+p {
+    font-size: 40px;
+    color: #fff;
+}
